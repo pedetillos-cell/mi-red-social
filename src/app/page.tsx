@@ -1,7 +1,7 @@
 'use client';
 
-// 1. IMPORTAR COMPONENTE Y CONFIGURACIÓN DEL MODO MANTENIMIENTO
-import { IS_MAINTENANCE_MODE } from '@/lib/constants';
+// 1. IMPORTAR COMPONENTE Y CONFIGURACIÓN DEL MODO MANTENIMIENT
+import { IS_MAINTENANCE_MODE, SITE_CONFIG } from '@/lib/constants';
 import MaintenanceMode from '@/components/MaintenanceMode';
 
 // 2. IMPORTS ORIGINALES DE TU APP
