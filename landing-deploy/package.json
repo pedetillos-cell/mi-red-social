@@ -1,0 +1,47 @@
+{
+  "name": "mi-red-social",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "mobile:dev": "cd mobile/app && npm run dev",
+    "mobile:build": "cd mobile/app && npm run build && npx cap sync",
+    "mobile:android": "cd mobile/app && npx cap open android",
+    "mobile:ios": "cd mobile/app && npx cap open ios"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.0.0",
+    "@prisma/client": "^6.14.0",
+    "@react-navigation/native": "^7.1.17",
+    "@react-navigation/stack": "^7.4.7",
+    "bcryptjs": "^3.0.2",
+    "chart.js": "^4.5.0",
+    "cookie": "^1.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "next": "15.5.0",
+    "prisma": "^6.14.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "^0.72.0",
+    "react-native-safe-area-context": "^5.6.1",
+    "react-native-screens": "^4.15.4",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/socket.io": "^3.0.1",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.0",
+    "typescript": "^5"
+  }
+}
